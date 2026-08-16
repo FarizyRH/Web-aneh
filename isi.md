@@ -101,7 +101,69 @@ Keesokan harinya, hari Senin, aku sengaja berangkat jauh lebih lambat dari jam y
 
 ---
 
-# Bab 3: Di Jakarta
+# Bab 3: Mimpi
+
+Perjalanan semester ini terasa sangat dekat dengan kelulusan, aku sudah masuk ke dalam fase magang. Dimulai pada pagi hari, aku terbangun oleh alarm dan panggilan dari tanteku. Ceritanya, aku magang di Jakarta dan tinggal bersama saudari tertua dari almarhumah ibuku. Aku bersiap untuk pergi magang—persiapan normal seperti mandi, berpakaian, dan sarapan.
+
+Aku turun dan menyapa tanteku. Aku memanggilnya dengan sebutan 'Ibu Abang' atau 'Ibu', karena dia juga figur ibu bagi abangku dan semua saudaraku.
+
+"Ibu, adek jalan dulu, ya," pamitku.
+"Iya Adek, hati-hati ya di jalan. Jangan sampai kesesat."
+
+Kemudian turunlah anak terbesarnya. Dia tinggal bersama ibunya karena suaminya sudah tidak ada. Aku juga biasa memanggilnya 'Ayah Abang' atau 'Ayah', karena kedudukannya yang sama dengan Ibu Abang.
+
+"Hati-hati di jalan, Dek. Pagi gini orang rame nganter sekolah," kata Abang.
+"Iya, Bang. Aman aja."
+
+Tiba-tiba HP-ku berbunyi. Panggilan dari ****.
+
+"Halo, iya kenapa tu?" tanyaku.
+"Kamu di mana? Lama kali, kata mau jemput," balasnya dengan logat yang terdengar seperti orang Sumatera.
+"Iya, iya, ini mau jalan. Lagi pamit sama Ibu sama Abang."
+
+Saudaraku tiba-tiba meledek, "Siapa tu, Dek? Hehe, magang aja bawa pacar, ya?"
+
+"Berisiklah Abang ni!" logat Sumateraku keluar tanpa sengaja. Dia terus menanyakan siapa sih yang meneleponku. Aku jawab saja, "Temen spesial."
+
+Dia membalasnya dengan ledekan lain, "Idih, takut bilang pacar sama Abang, tapi takut juga bilang temen ke dia, takut kedengaran, ya?"
+
+"Terserah Abang lah. Aku jalan lagi ya Bang, Bu."
+
+Aku berjalan keluar sambil kembali fokus ke telepon. Sebelum aku benar-benar berangkat, Abang berteriak menyuruhku membawa perempuan itu mampir nanti sepulang kerja, Ibu rupanya mau lihat orangnya. Aku sedikit kaget dan bingung, mau nggak ya dia diajak ke tempat Ibu? Aku hanya menjawab, "Iya, Bang, kalau bisa."
+
+Hari pertama magang selesai begitu saja. Tidak terasa sudah waktunya pulang. Saat perjalanan pulang, aku menanyakan padanya, "Kamu bisa ga mampir bentar ke tempat tanteku?"
+
+Dia bertanya balik, "Ngapain?"
+Aku jelaskan kalau tanteku ini sudah seperti ibuku sendiri, dan setelah sedikit bujukan, akhirnya dia mau.
+
+Sesampainya di sana, kami lewat pintu belakang. Karena rumah Ibu ini berbentuk ruko, kalau kedai sedang tutup, kami memang biasa lewat pintu belakang.
+
+"Assalammualaikum, Bu," ucapku dan dia bersamaan.
+"Waalaikumsalam," jawab Ibu.
+
+Aku memperkenalkan dia dengan Ibu. Ibu terlihat cukup tertarik, dia memujiku dan mengobrol dengan hangat. Namun tiba-tiba, dia berkata:
+
+"Eh, udah jam berapa ini?"
+
+Tepat di detik itu, wajah perempuan di sebelahku memudar. Seperti coretan mozaik ketidakjelasan. Aku bahkan mendadak tidak ingat siapa namanya.
+
+Tunggu, kenapa ini?
+
+"Udah jamnya ini, kamu juga harus bangun. Sampai jumpa lagi," katanya.
+
+Ia mengucapkannya dengan wajah yang tidak dapat kuingat. Potongan rambutnya? Jilbabnya? Semua itu terlupakan begitu saja. Terhapus. Hanya kekosongan di tempat wajahnya seharusnya berada.
+
+Dan aku terbangun.
+
+Ternyata semua itu hanya mimpi. Sebuah mimpi yang sangat buruk. Sangat buruk, karena mimpi itu membekas begitu dalam di hatiku. Semua keinginanku yang seharusnya kurencanakan, ternyata hanya berjalan di alam bawah sadar. Aku tidak sedang magang di Jakarta. Aku tetap berada di tempat tinggalku, bersama orang tuaku. Semua bayangan itu menggangguku, membekas, dan tiba-tiba muncul menyergap saat aku sedang melakukan kegiatan-kegiatan yang berjalan otomatis, hal-hal monoton yang kulakukan tanpa perlu berpikir.
+
+Saat aku sedang melihat Steam, atau saat aku sedang mendengarkan temanku saling berbincang di Discord, ingatan itu muncul—berusaha mengingat wajahnya, mengingat kenangan itu. Mimpi ini sangat menggangguku. Mimpi ini membuatku merasa dunia ini tidak adil dan aku sangat payah. Menggabungkan semua keinginanku ke dalam mimpi, kurasa diriku ini sangat jahat sekali.
+
+Mimpi yang indah bukan seperti itu. Mimpi yang indah adalah saat aku tidak perlu mengarangnya. Bahkan, aku berharap aku tidak pernah bermimpi saja. Aku hanya ingin tidur, melihat kegelapan, dan bangun seperti biasa. Tidak ada yang kudapat dari mimpi itu selain fakta bahwa aku gagal dalam menggapai semua itu dan malah membuat tempat pelarian. Aku sangat menyedihkan.
+
+---
+
+# Bab ??: Di Jakarta
 
 Baru-baru ini terpikir olehku, ternyata mendengarkan orang lain itu cukup menyenangkan. Bagaimana pun ceritanya, saat aku mendengarkan cerita orang lain, aku merasa seperti... manusia. Aku memang manusia, tapi pernah gak sih kamu mikir, "Manusia itu sebenarnya kayak gimana, sih?" Kadang rasanya mirip kayak lagu *Imposter Syndrome*. Ya, walaupun makna lirik sama perasaanku mungkin gak sinkron-sinkron amat.
 
