@@ -10,13 +10,16 @@
 <body>
     <div class="login-container glass-card">
         <h1>Jurnal Harian</h1>
-        <p>Masukkan sandi untuk membaca isi kepala ini.</p>
+        <p>Login sebagai Admin untuk membaca dan mengedit.</p>
         <div class="input-group">
             <input type="password" id="passwordInput" placeholder="Masukkan Sandi..." />
             <button id="loginBtn">Buka</button>
         </div>
-        <p id="errorMsg" class="error-msg">Sandi salah, coba lagi.</p>
+        <p id="errorMsg" class="error-msg">Email atau sandi salah, coba lagi.</p>
     </div>
+    
+    <!-- Supabase JS Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="script.js"></script>
 </body>
 </html>

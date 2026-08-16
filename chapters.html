@@ -9,12 +9,15 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body class="reader-body">
-    <div class="nav-bar">
+    <div class="nav-bar" style="display: flex; gap: 10px; justify-content: flex-end;">
+        <a href="editor.html" id="newJournalBtn" class="logout-btn" style="text-decoration: none; background: rgba(255, 255, 255, 0.2);">+ Tulis Baru</a>
         <button id="logoutBtn" class="logout-btn">Kunci Kembali</button>
     </div>
     <div class="reader-container glass-card" id="content-area">
         <p class="loading">Memuat tulisan...</p>
     </div>
+    <!-- Supabase JS Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulis Jurnal Baru</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        .editor-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .editor-input, .editor-textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+        }
+        .editor-textarea {
+            min-height: 300px;
+            resize: vertical;
+            font-family: monospace; /* For better markdown writing experience */
+        }
+        .editor-input:focus, .editor-textarea:focus {
+            outline: none;
+            border-color: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="reader-body">
+    <div class="nav-bar">
+        <button id="backBtn" class="logout-btn" style="margin-right: auto; margin-left: 0;">← Kembali</button>
+    </div>
+    
+    <div class="reader-container glass-card" id="editor-area">
+        <h2>Tulis Jurnal Baru</h2>
+        <div class="editor-form">
+            <input type="text" id="titleInput" class="editor-input" placeholder="Judul Jurnal (misal: Bab 3: Pertemuan)" />
+            <textarea id="contentInput" class="editor-textarea" placeholder="Tulis ceritamu di sini menggunakan format Markdown..."></textarea>
+            <button id="saveBtn">Simpan Jurnal</button>
+            <p id="editorErrorMsg" class="error-msg" style="text-align: center; margin-top: 10px;"></p>
+        </div>
+    </div>
+
+    <!-- Supabase JS Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+</body>
+</html>
