@@ -327,3 +327,220 @@ button:active {
         padding: 3rem 2rem;
     }
 }
+
+/* Layout Container for Sidebar + Content */
+.layout-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: calc(100vh - 8rem);
+    gap: 2rem;
+    padding: 0 1.5rem;
+    align-items: flex-start;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 300px;
+    flex-shrink: 0;
+    padding: 1.5rem;
+    position: sticky;
+    top: 2rem;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.sidebar-header h3 {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-main);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.chapter-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.chapter-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.chapter-item:hover {
+    background: rgba(255,255,255,0.05);
+    border-color: rgba(255,255,255,0.1);
+}
+
+.chapter-item.active {
+    background: rgba(139, 92, 246, 0.15);
+    border-color: rgba(139, 92, 246, 0.3);
+}
+
+.chapter-title-btn {
+    background: none;
+    border: none;
+    color: var(--text-main);
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: none;
+    padding: 0;
+    width: 100%;
+}
+
+.chapter-title-btn:hover {
+    box-shadow: none;
+    transform: none;
+    color: var(--primary);
+    filter: none;
+}
+
+.chapter-admin-controls {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px dashed rgba(255,255,255,0.05);
+}
+
+.chapter-admin-controls .action-btn {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+/* Main Content Styles */
+.main-content {
+    flex-grow: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.main-content .reader-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 3rem 4rem;
+}
+
+.chapter-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.nav-chapter-btn {
+    flex: 1;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(12px);
+    color: var(--text-main);
+    box-shadow: none;
+}
+
+.nav-chapter-btn:hover:not(:disabled) {
+    background: rgba(139, 92, 246, 0.2);
+    border-color: var(--primary);
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.2);
+    transform: translateY(-2px);
+}
+
+.nav-chapter-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+    background: rgba(255,255,255,0.02);
+}
+
+.mobile-only {
+    display: none;
+}
+
+#openSidebarBtn {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    color: var(--text-main);
+    box-shadow: none;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+}
+
+#toggleSidebarBtn {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.2rem;
+    padding: 0;
+    box-shadow: none;
+}
+
+#toggleSidebarBtn:hover {
+    box-shadow: none;
+    transform: none;
+    color: white;
+}
+
+/* Responsive Layout */
+@media (max-width: 992px) {
+    .layout-container {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -320px;
+        height: 100vh;
+        max-height: 100vh;
+        width: 300px;
+        z-index: 100;
+        background: rgba(3, 7, 18, 0.95);
+        border-radius: 0;
+        border-right: 1px solid var(--glass-border);
+        transition: left 0.3s ease;
+    }
+    
+    .sidebar.open {
+        left: 0;
+    }
+    
+    .mobile-only {
+        display: block;
+    }
+    
+    .main-content {
+        width: 100%;
+        padding: 0 1rem;
+    }
+    
+    .main-content .reader-container {
+        padding: 2.5rem 1.5rem;
+    }
+    
+    .nav-bar {
+        padding: 0 1rem;
+    }
+}

@@ -13,8 +13,31 @@
         <a href="editor.html" id="newJournalBtn" class="logout-btn" style="text-decoration: none; background: rgba(255, 255, 255, 0.2);">+ Tulis Baru</a>
         <button id="logoutBtn" class="logout-btn">Kunci Kembali</button>
     </div>
-    <div class="reader-container glass-card" id="content-area">
-        <p class="loading">Memuat tulisan...</p>
+    <div class="layout-container">
+        <!-- Sidebar Daftar Isi -->
+        <aside class="sidebar glass-card" id="sidebar">
+            <div class="sidebar-header">
+                <h3>Daftar Isi</h3>
+                <button id="toggleSidebarBtn" class="mobile-only">✕</button>
+            </div>
+            <div class="chapter-list" id="chapter-list">
+                <p class="loading">Memuat daftar bab...</p>
+            </div>
+        </aside>
+
+        <!-- Area Konten Utama -->
+        <main class="main-content">
+            <button id="openSidebarBtn" class="mobile-only glass-card">☰ Daftar Bab</button>
+            <div class="reader-container glass-card" id="content-area">
+                <p class="loading">Memilih bab...</p>
+            </div>
+            
+            <!-- Tombol Navigasi Bab -->
+            <div class="chapter-navigation" id="chapter-navigation" style="display: none;">
+                <button id="prevChapterBtn" class="nav-chapter-btn">← Sebelumnya</button>
+                <button id="nextChapterBtn" class="nav-chapter-btn">Selanjutnya →</button>
+            </div>
+        </main>
     </div>
     <!-- Supabase JS Client -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
